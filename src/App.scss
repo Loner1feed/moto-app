@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.App{
+  font-family: 'Lato', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 1200px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas: 'side main';
+}
+
+.sidebar{
+  grid-area: 'side';
+  padding-right: 30px;
+  width: 245px;
+}
+
+.content{
+  width: 100%;
+}
+
+.checkRow__sizes{
+  margin-bottom: 5px;
+  margin-top: 0 !important;
+}
+
+.close-btn{
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  display: block; 
+  min-height: 15px;
+  min-width: 15px;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s;
+  i{
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .title{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .sidebar{
+    width: 175px;
+  }
+}
