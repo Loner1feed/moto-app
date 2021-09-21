@@ -1,0 +1,48 @@
+.heading{
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3E77AA;
+    cursor: pointer;
+
+    i{
+        font-size: 14px;
+        margin-bottom: -3px;
+        margin-left: 15px;
+    }
+}
+
+.body{
+    padding-top: 12px;
+}
+
+.expand{
+    border-bottom: 1px solid #DFDFDF;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    &:last-child{
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .heading{
+        font-size: 16px;
+        line-height: auto;
+        i{
+            font-size: 10px;
+            margin-left: 10px;
+        }
+    }
+
+    .expand{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .body{
+        padding-top: 5px;
+    }
+}

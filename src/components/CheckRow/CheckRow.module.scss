@@ -1,0 +1,55 @@
+
+
+.checkRow:not(:first-child){
+    margin-top: 12px;
+}
+
+.checkRow{
+    position: relative;
+    label{
+        padding-left: 15px;
+        &::after{
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            border-radius: 2px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        i{
+            position: absolute;
+            left: 2px;
+            font-size: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0;
+        }
+    }
+
+    input{
+        position: absolute;
+        opacity: 0;
+        z-index: -2;
+        &:checked + label i{
+            opacity: 1;
+        }
+    }
+}
+
+@media screen and (max-width: 900px){
+    .checkRow{
+        label{
+            font-size: 12px;
+        }
+    }
+
+    .checkRow:not(:first-child){
+        margin-top: 5px;
+    }
+}
