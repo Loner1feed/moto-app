@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/moto-app/static/css/main.503ec9a8.chunk.css",
-    "main.js": "/moto-app/static/js/main.243d6d64.chunk.js",
-    "main.js.map": "/moto-app/static/js/main.243d6d64.chunk.js.map",
+    "main.js": "/moto-app/static/js/main.fdb9b3bc.chunk.js",
+    "main.js.map": "/moto-app/static/js/main.fdb9b3bc.chunk.js.map",
     "runtime-main.js": "/moto-app/static/js/runtime-main.7b40c65a.js",
     "runtime-main.js.map": "/moto-app/static/js/runtime-main.7b40c65a.js.map",
-    "static/js/2.26a96c6c.chunk.js": "/moto-app/static/js/2.26a96c6c.chunk.js",
-    "static/js/2.26a96c6c.chunk.js.map": "/moto-app/static/js/2.26a96c6c.chunk.js.map",
+    "static/js/2.3074756b.chunk.js": "/moto-app/static/js/2.3074756b.chunk.js",
+    "static/js/2.3074756b.chunk.js.map": "/moto-app/static/js/2.3074756b.chunk.js.map",
     "static/js/3.4fcf2654.chunk.js": "/moto-app/static/js/3.4fcf2654.chunk.js",
     "static/js/3.4fcf2654.chunk.js.map": "/moto-app/static/js/3.4fcf2654.chunk.js.map",
     "index.html": "/moto-app/index.html",
     "static/css/main.503ec9a8.chunk.css.map": "/moto-app/static/css/main.503ec9a8.chunk.css.map",
-    "static/js/2.26a96c6c.chunk.js.LICENSE.txt": "/moto-app/static/js/2.26a96c6c.chunk.js.LICENSE.txt",
+    "static/js/2.3074756b.chunk.js.LICENSE.txt": "/moto-app/static/js/2.3074756b.chunk.js.LICENSE.txt",
     "static/media/files-icon.c4862f2b.svg": "/moto-app/static/media/files-icon.c4862f2b.svg",
     "static/media/icon-font.css": "/moto-app/static/media/icomoon.f61c940b.woff",
     "static/media/img1.a572648d.png": "/moto-app/static/media/img1.a572648d.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7b40c65a.js",
-    "static/js/2.26a96c6c.chunk.js",
+    "static/js/2.3074756b.chunk.js",
     "static/css/main.503ec9a8.chunk.css",
-    "static/js/main.243d6d64.chunk.js"
+    "static/js/main.fdb9b3bc.chunk.js"
   ]
 }
